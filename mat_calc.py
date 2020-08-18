@@ -101,7 +101,6 @@ class MatrixCalc:
         else:
             indices = [[(i, j) for j in range(len(m))]for i in range(len(m))]
             minors = [[0 for j in range(len(m))]for i in range(len(m))]
-            minors = [[0 for j in range(len(m))]for i in range(len(m))]
             sign_mat = [[0 for j in range(len(m))]for i in range(len(m))]
             # print(f"Indices = {indices}\nminors = {minors}\nsign_mat = {sign_mat}\n {('*') * 20} ")
             for coordinates in indices:
